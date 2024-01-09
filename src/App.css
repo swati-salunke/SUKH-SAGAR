@@ -205,7 +205,8 @@ background-color: #aa8453;
   z-index: 1;
 }
 
-.image-content img {
+.main-container .image-content img {
+  background-image: url('/images/section9.jpg');
   width: 100%;
   height: 650px;
   object-fit: cover;
