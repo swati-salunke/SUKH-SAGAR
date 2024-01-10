@@ -137,7 +137,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: calc(100% - 20px); /* Adjust for 3-column layout with margins */
+  width: calc(100% - 20px); 
   box-sizing: border-box;
   
 }

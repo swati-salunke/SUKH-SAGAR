@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="links">
             <h1>Explore</h1>
             <ul>
-              <li> <Link to="/home">Home</Link></li>
+              <li> <Link to="/sukh-sagar">Home</Link></li>
               <li> <Link to="/about">About</Link></li>
               <li> <Link to="/room">Room</Link></li>
               <li> <Link to="/roomdetails">Room Details</Link></li>
