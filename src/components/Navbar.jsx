@@ -44,7 +44,7 @@ function Navbar() {
         <div className="navbar-logo">
             <Link to="/sukh-sagar"><img src="images/resturant.png" alt="Logo" /></Link>
         </div>
-        <Link to="/about">About</Link>
+        <Link to="/sukh-sagar/about">About</Link>
         
         <div className="dropdown">
           <button className="room_suites" onClick={() => setShowDropdown(!showDropdown)}>
