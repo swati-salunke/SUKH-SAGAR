@@ -57,32 +57,32 @@ const HotelBlog = ({isBlog}) => {
     {
       heading: 'Room Cleaning',
       description: 'Daily Service.',
-      imageUrl: '/images/section1.jpg',
+      imageUrl: 'images/section1.jpg',
     },
     {
       heading: 'Drink Included',
       description: 'Variety of Beverages.',
-      imageUrl: '/images/section15.jpg',
+      imageUrl: 'images/section15.jpg',
     },
     {
       heading: 'Room Breakfast',
       description: 'Fresh Ingredients.',
-      imageUrl: '/images/section16.jpg',
+      imageUrl: 'images/section16.jpg',
     },
     {
       heading: 'Safe & Secure',
       description: 'Access Control.',
-      imageUrl: '/images/section17.jpg',
+      imageUrl: 'images/section17.jpg',
     },
     {
       heading: 'Safe & Secure',
       description: 'Access Control.',
-      imageUrl: '/images/section18.jpg',
+      imageUrl: 'images/section18.jpg',
     },
     {
       heading: 'Safe & Secure',
       description: 'Access Control.',
-      imageUrl: '/images/section19.jpg',
+      imageUrl: 'images/section19.jpg',
     },
   ];
 

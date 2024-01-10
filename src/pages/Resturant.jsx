@@ -10,9 +10,9 @@ const Resturant = () => {
   const [activeTab, setActiveTab] = useState('mains');
   const [sliderRef, setSliderRef] = useState(null);
   const images = [
-    '/images/resto-slider1.jpg',
-    '/images/resto-slider2.jpg',
-    '/images/resto-slider3.jpg',
+    'images/resto-slider1.jpg',
+    'images/resto-slider2.jpg',
+    'images/resto-slider3.jpg',
   ];
   const settings1 = {
     dots: false,

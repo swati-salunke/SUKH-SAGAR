@@ -7,7 +7,7 @@ const HotelContainer = ({ isSPA }) => {
       {!isSPA && (
         <div className="hotel-sections">
           <div className="image-section">
-            <img src="/images/section10.jpg" alt="" />
+            <img src="images/section10.jpg" alt="" />
           </div>
           <div className="hotel-info">
             <p className='small-heading'>Descover</p>
@@ -26,12 +26,12 @@ const HotelContainer = ({ isSPA }) => {
             <button className='btn-hotel-info'>Learn More</button>
           </div>
           <div className="image-section">
-            <img src="/images/section11.jpg" alt="" />
+            <img src="images/section11.jpg" alt="" />
           </div>
         </div>
         <div className="hotel-sections">
           <div className="image-section">
-            <img src="/images/section12.jpg" alt="" />
+            <img src="images/section12.jpg" alt="" />
           </div>
           <div className="hotel-info">
             <p className='small-heading'>THE MODERN</p>
@@ -49,7 +49,7 @@ const HotelContainer = ({ isSPA }) => {
             <button className='btn-hotel-info'>Learn More</button>
           </div>
           <div className="image-section">
-            <img src="/images/SPA1.jpg" alt="" />
+            <img src="images/SPA1.jpg" alt="" />
           </div>
         </div>
       </div>

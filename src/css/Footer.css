@@ -166,8 +166,8 @@
  
  .location .social-media-icons a {
     margin: 0 10px;
-    color: #fff; /* Change color as needed */
-    font-size: 24px; /* Change size as needed */
+    color: #fff; 
+    font-size: 24px;
     text-decoration: none;
  }
 
@@ -175,11 +175,11 @@
 /* Tablet View */
 @media screen and (max-width: 768px) {
   .footer-section {
-    height: auto; /* Adjust height for tablet view */
+    height: auto; 
   }
 
   .footer {
-    flex-direction: column; /* Stack elements vertically */
+    flex-direction: column; 
     align-items: center;
   }
 
@@ -206,8 +206,8 @@
   }
 
   .bottom-footer {
-    height: auto; /* Adjust height for content */
-    padding: 10px 0; /* Add some padding */
+    height: auto;
+    padding: 10px 0; 
   }
   
 }
@@ -219,15 +219,15 @@
   }
 
   .footer h1 {
-    font-size: 20px; /* Adjust headings for smaller screens */
+    font-size: 20px; 
   }
 
   .about-hotel p, .location p, .footer p {
-    font-size: 13px; /* Further reduce font size for mobile */
+    font-size: 13px; 
   }
 
   .links a {
-    font-size: 14px; /* Adjust link font size for mobile */
+    font-size: 14px; 
   }
 
   .location .call-details p {
@@ -235,7 +235,7 @@
   }
 
   .location .social-media-icons a {
-    font-size: 20px; /* Adjust social icon size */
+    font-size: 20px;
   }
   .footer-section
 {

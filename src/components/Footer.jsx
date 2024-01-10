@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../css/Footer.css';
 const Footer = () => {
   return (
@@ -14,12 +15,13 @@ const Footer = () => {
           <div className="links">
             <h1>Explore</h1>
             <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="">Rooms & Suites</a></li>
-              <li><a href="http://">Restaurant</a></li>
-              <li><a href="http://">Spa & Wellness</a></li>
-              <li><a href="http://">About Hotel</a></li>
-              <li><a href="http://">Contact</a></li>
+              <li> <Link to="/home">Home</Link></li>
+              <li> <Link to="/about">About</Link></li>
+              <li> <Link to="/room">Room</Link></li>
+              <li> <Link to="/roomdetails">Room Details</Link></li>
+              <li> <Link to="/resturant">Resturant</Link></li>
+              <li> <Link to="/spa">Spa & Wellness</Link></li>
+              <li> <Link to="/blog">Blog</Link></li>
             </ul>
           </div>
 
@@ -27,7 +29,7 @@ const Footer = () => {
             <h1>Contact</h1>
             <p>1616 Broadway NY, New York 10001 United States of America</p>
             <div className='call-details'>
-              <img src="/images/call.png" alt="phone call" />
+              <img src="images/call.png" alt="phone call" />
               <p>9607555500</p>
             </div>
             <div className="mail">

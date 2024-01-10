@@ -46,7 +46,7 @@ const ImageCarousel = ({backgroundColor,headingcolor}) => {
       text1: 'Daily Service.',
       text2: 'Expert Staff.',
       text3: 'Eco-friendly Products.',
-      imageUrl: '/images/curosel1.jpg',
+      imageUrl: 'images/curosel1.jpg',
     },
     {
       title: 'Drink Included',
@@ -55,7 +55,7 @@ const ImageCarousel = ({backgroundColor,headingcolor}) => {
       text1: 'Variety of Beverages.',
       text2: 'Affordable Prices.',
       text3: 'Local Brews.',
-      imageUrl: '/images/curosel2.jpg',
+      imageUrl: 'images/curosel2.jpg',
     },
     {
       title: 'Room Breakfast',
@@ -64,7 +64,7 @@ const ImageCarousel = ({backgroundColor,headingcolor}) => {
       text1: 'Fresh Ingredients.',
       text2: 'Room Service.',
       text3: 'Dietary Options.',
-      imageUrl: '/images/curosel3.jpg',
+      imageUrl: 'images/curosel3.jpg',
     },
     {
       title: 'Safe & Secure',
@@ -73,7 +73,7 @@ const ImageCarousel = ({backgroundColor,headingcolor}) => {
       text1: 'Access Control.',
       text2: 'Secure Parking.',
       text3: 'Guest Escorts.',
-      imageUrl: '/images/curosel4.jpg',
+      imageUrl: 'images/curosel4.jpg',
     },
   
   ];
@@ -88,7 +88,7 @@ const ImageCarousel = ({backgroundColor,headingcolor}) => {
         <p>Enjoy ultimate relaxation at Sukh Sagar Hotel with our affordable relaxation packages, designed to help you unwind and rejuvenate without breaking the bank.</p>
         <p>Our in-room drink and beverage services for a truly convenient and room service breakfast options, ensuring a delicious and hassle-free morning during your stay with us</p>
         <div className='call-details'>
-            <img src="/images/phone-ringing.png" alt="phone call" />
+            <img src="images/phone-ringing.png" alt="phone call" />
             <p>For Information</p>
           </div>
           <p className='number'>9607555500</p>

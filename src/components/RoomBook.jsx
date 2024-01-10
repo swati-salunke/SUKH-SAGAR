@@ -14,7 +14,7 @@ const RoomBook = ({isRoom}) => {
                 )}
                 <div className="room-images-section1">
                     <div className="room-content">
-                        <img src="/images/section3.jpg" alt="Junior Suite" />
+                        <img src="images/section3.jpg" alt="Junior Suite" />
                         <button className="book-button">Book</button>
                         <div className="content">
                             <div className="ctn-btn">
@@ -29,7 +29,7 @@ const RoomBook = ({isRoom}) => {
 
                     </div>
                     <div className="room-content">
-                        <img src="/images/section4.jpg" alt="Junior Suite" />
+                        <img src="images/section4.jpg" alt="Junior Suite" />
                         <button className="book-button">Book</button>
                         <div className="content">
                             <div className="ctn-btn">
@@ -44,7 +44,7 @@ const RoomBook = ({isRoom}) => {
 
                     </div>
                     <div className="room-content">
-                        <img src="/images/section5.jpg" alt="Junior Suite" />
+                        <img src="images/section5.jpg" alt="Junior Suite" />
                         <button className="book-button">Book</button>
                         <div className="content">
                             <div className="ctn-btn">
@@ -60,7 +60,7 @@ const RoomBook = ({isRoom}) => {
                 </div>
                 <div className="room-images-section2">
                     <div className="room-content2">
-                        <img src="/images/section6.jpg" alt="Junior Suite" />
+                        <img src="images/section6.jpg" alt="Junior Suite" />
                         <button className="book-button">Book</button>
                         <div className="content2">
                             <div className="ctn-btn">
@@ -75,7 +75,7 @@ const RoomBook = ({isRoom}) => {
 
                     </div>
                     <div className="room-content2">
-                        <img src="/images/section7.jpg" alt="Junior Suite" />
+                        <img src="images/section7.jpg" alt="Junior Suite" />
                         <button className="book-button">Book</button>
                         <div className="content2">
                             <div className="ctn-btn">

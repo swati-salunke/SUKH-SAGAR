@@ -5,27 +5,27 @@ import "../css/Testimonial.css";
 
 
 const quote = {
-  qimage:"/images/quote.png"
+  qimage:"images/quote.png"
 };
 const testimonials = [
   { starRating:5, 
     name: "Jon Doe",
     company: "Company A",
-    image: "/images/client1.png",
+    image: "images/client1.png",
     text: "Staying at Hotel Sukh Sagar was an absolute delight! From the moment we walked in, we were greeted with warm smiles and exceptional service. The staff went above and beyond to make our stay comfortable and memorable."
   },
   {
     starRating:5,
     name: "Shyam Duke",
     company: "Company A",
-    image: "/images/client2.png",
+    image: "images/client2.png",
     text: "Their service was incredible and helped us achieve our goals."
   },
   {
     starRating:5,
     name: "Nitya Nayar",
     company: "Company A",
-    image: "/images/client3.png",
+    image: "images/client3.png",
     text: "Their service was incredible and helped us achieve our goals."
   },
  

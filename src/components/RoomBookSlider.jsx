@@ -30,26 +30,26 @@ function RoomBookSlider() {
     };
     const rooms = [
         {
-            image: '/images/section3.jpg',
+            image: 'images/section3.jpg',
             title: 'Junior Suite',
             price: '400 Rs./Nigth',
             buttonText: 'Book Now',
             buttonText2: 'Details',
         },
         {
-            image: '/images/section4.jpg',
+            image: 'images/section4.jpg',
             title: 'Junior Suite',
             price: '400 Rs./Nigth',
             buttonText: 'Book Now',
             buttonText2: 'Details',
         }, {
-            image: '/images/section5.jpg',
+            image: 'images/section5.jpg',
             title: 'Junior Suite',
             price: '400 Rs./Nigth',
             buttonText: 'Book Now',
             buttonText2: 'Details',
         }, {
-            image: '/images/section6.jpg',
+            image: 'images/section6.jpg',
             title: 'Junior Suite',
             price: '400 Rs./Nigth',
             buttonText: 'Book Now',

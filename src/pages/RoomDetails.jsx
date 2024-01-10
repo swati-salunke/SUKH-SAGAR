@@ -9,9 +9,9 @@ import RoomBookSlider from '../components/RoomBookSlider';
 import '../css/RoomDetails.css';
 const RoomDetails = () => {
     const images = [
-        '/images/room-suite1.jpg',
-        '/images/main.jpg',
-        '/images/section9.jpg',
+        'images/room-suite1.jpg',
+        'images/main.jpg',
+        'images/section9.jpg',
     ];
     const settings = {
         dots: false,

@@ -74,26 +74,24 @@
    top:80%
 }
 
-/* Styling for all dots */
 .slick-dots li {
-    margin: 0 8px; /* Adjust spacing between dots */
+    margin: 0 8px; 
     top:50%
 }
 .slick-dots::before
 {
     border:  1px solid #fff;
 }
-/* Styling for non-active dots */
+
 .slick-dots li button:before {
-    color: black; /* Non-active dot color */
-    font-size: 15px; /* Increase size of dots */
+    color: black; 
+    font-size: 15px; 
     opacity: 1;
 }
 
-/* Styling for active dot */
 .slick-dots li.slick-active button:before {
-    color: #ac8453; /* Active dot color */
-    border-radius: 50%; /* Makes the dot circular */
+    color: #ac8453; 
+    border-radius: 50%; 
 }
 
 .image-card .card-content {
@@ -188,12 +186,10 @@
 
     .card-content h3 {
         font-size: 1.2rem;
-        /* Slightly smaller headings */
     }
 
     .card-content h2 {
         font-size: 1.1rem;
-        /* Slightly smaller subheadings */
     }
 
     .card-content ul {
@@ -203,7 +199,6 @@
     .column.text-column {
         padding: 20px;
         font-size: 0.9rem;
-        /* Smaller text for better readability */
     }
 }
 
@@ -218,55 +213,45 @@
 
     .carousel-container .row {
         display: block;
-        /* Stack columns vertically */
     }
 
     .carousel-container .column {
         width: 100%;
         margin-bottom: 20px;
-        /* Space between stacked columns */
     }
 
     .carousel-container .text-column {
         font-size: 14px;
-        /* Adjust font size for readability */
     }
 
     .carousel-container .text-column .small-heading {
         font-size: 16px;
-        /* Slightly larger for emphasis */
     }
 
     .carousel-container .text-column h1 {
         font-size: 20px;
-        /* Larger size for main heading */
         margin-bottom: 10px;
-        /* Space after heading */
     }
 
     .carousel-container .text-column p {
         margin-bottom: 10px;
-        /* Space between paragraphs */
     }
 
     .carousel-container .text-column .call-details img {
         width: 30px;
-        /* Smaller image size */
         margin-right: 10px;
-        /* Space between image and text */
+        
     }
 
     .carousel-container .text-column .number {
         font-size: 18px;
-        /* Larger for easy tapping */
-        font-weight: bold;
-        /* To make it stand out */
+        font-weight: bold; 
     }
 
     .carousel-container .slider-column {
         overflow: hidden;
-        /* In case of any overflow */
+      
     }
 
-    /* Add any additional styles for image cards, slider arrows, etc., as needed */
+    
 }
