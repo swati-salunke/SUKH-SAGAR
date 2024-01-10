@@ -50,11 +50,11 @@ const ContactContainer = () => {
   };
   const logos = [
     // Replace these with your logo images and links
-    { id: 1, imageSrc: '/images/logo1.png', link: '#' },
-    { id: 2, imageSrc: '/images/logo2.png', link: '#' },
-    { id: 3, imageSrc: '/images/logo3.png', link: '#' },
-    { id: 3, imageSrc: '/images/logo4.png', link: '#' },
-    { id: 3, imageSrc: '/images/logo5.png', link: '#' },
+    { id: 1, imageSrc: 'images/logo1.png', link: '#' },
+    { id: 2, imageSrc: 'images/logo2.png', link: '#' },
+    { id: 3, imageSrc: 'images/logo3.png', link: '#' },
+    { id: 3, imageSrc: 'images/logo4.png', link: '#' },
+    { id: 3, imageSrc: 'images/logo5.png', link: '#' },
   ];
   return (
     <>
@@ -71,7 +71,7 @@ const ContactContainer = () => {
               </span>
               <p>Each of our guest rooms feature a private bath, wi-fi, cable television and include full breakfast.</p>
               <div className='call-details'>
-                <img src="/images/call.png" alt="phone call" />
+                <img src="images/call.png" alt="phone call" />
                 <p>Reservation</p>
               </div>
               <p className='number'>9607555500</p>
