@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import '../css/resturant.css';
+import '../css/Resturant.css';
 import Testimonial from '../components/Testimonial';
 
 
@@ -10,9 +10,9 @@ const Resturant = () => {
   const [activeTab, setActiveTab] = useState('mains');
   const [sliderRef, setSliderRef] = useState(null);
   const images = [
-    '/docs/images/resto-slider1.jpg',
-    '/docs/images/resto-slider2.jpg',
-    '/docs/images/resto-slider3.jpg',
+    'images/resto-slider1.jpg',
+    'images/resto-slider2.jpg',
+    'images/resto-slider3.jpg',
   ];
   const settings1 = {
     dots: false,

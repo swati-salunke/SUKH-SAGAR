@@ -10,7 +10,7 @@ const About = () => {
         <>
         <div className="about-page">
         <div className="image-content">
-          <img src="/docs/images/about.jpg" alt="Description" />
+          <img src="images/about.jpg" alt="Description" />
           <div className="overlay-text">
             <p className='small-heading'>Luxury Hotel</p>
             <h1>About Us</h1>

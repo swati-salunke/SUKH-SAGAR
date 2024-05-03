@@ -42,9 +42,9 @@ function Navbar() {
           </button>
         )}
         <div className="navbar-logo">
-            <Link to="/sukh-sagar"><img src="images/resturant.png" alt="Logo" /></Link>
+            <Link to="/SUKH-SAGAR/"><img src="images/resturant.png" alt="Logo" /></Link>
         </div>
-        <Link to="/about">About</Link>
+        <Link to="/SUKH-SAGAR/about">About</Link>
         
         <div className="dropdown">
           <button className="room_suites" onClick={() => setShowDropdown(!showDropdown)}>
@@ -52,17 +52,17 @@ function Navbar() {
           </button>
           {showDropdown && (
             <div className="dropdown-content">
-              <Link to="/room">Room</Link>
-              <Link to="/roomdetails">Room Details</Link>
+              <Link to="/SUKH-SAGAR/room">Room</Link>
+              <Link to="/SUKH-SAGAR/roomdetails">Room Details</Link>
             </div>
           )}
         </div>
 
-        <Link to="/resturant">Resturant</Link>
-        <Link to="/spa">SPA Wellness</Link>
-        <Link to="/blog">Blog</Link>
+        <Link to="/SUKH-SAGAR/resturant">Resturant</Link>
+        <Link to="/SUKH-SAGAR/spa">SPA Wellness</Link>
+        <Link to="/SUKH-SAGAR/blog">Blog</Link>
       </div>
-      <Link to="/contact" className="cta-button-link">
+      <Link to="/SUKH-SAGAR/contact" className="cta-button-link">
           <button className="cta-button">Enquire Now</button>
         </Link>
     </nav>

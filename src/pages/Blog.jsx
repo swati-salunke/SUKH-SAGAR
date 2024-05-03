@@ -8,7 +8,7 @@ const Blog = () => {
     <>
       <div className="about-page">
         <div className="image-content">
-          <img src="/docs/images/section9.jpg" alt="Description" />
+          <img src="images/section9.jpg" alt="Description" />
           <div className="overlay-text">
             <p className='small-heading'>Luxury Hotel</p>
             <h1>Our News</h1>

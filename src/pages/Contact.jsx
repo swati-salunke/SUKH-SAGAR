@@ -6,7 +6,7 @@ const Contact = () => {
     <>
       <div className="about-page">
         <div className="image-content">
-          <img src="/docs/images/section9.jpg" alt="Description" />
+          <img src="images/section9.jpg" alt="Description" />
           <div className="overlay-text">
             <p className='small-heading'>Luxury Hotel</p>
             <h1>Contact Us</h1>
@@ -18,21 +18,21 @@ const Contact = () => {
           <h3>The Sukh Sagar Luxury Hotel</h3>
           <p>Welcome to Sukh-Sagar, Pune's Pinnacle of 5-Star Luxury.Nestled in the heart of Pune, Sukh-Sagar stands as the city's premier destination for luxury and indulgence. As you enter our distinguished establishment, we extend to you a warm and gracious welcome to a world of opulence and refinement.</p>
           <div className='call-details'>
-            <img src="/docs/images/phone-ringing.png" alt="phone call" />
+            <img src="images/phone-ringing.png" alt="phone call" />
             <div className='call-info'>
               <p>Reservation</p>
               <p className='number'>9607555500</p>
             </div>
           </div>
           <div className='call-details'>
-            <img src="/docs/images/email.png" alt="mail-id" />
+            <img src="images/email.png" alt="mail-id" />
             <div className='call-info'>
               <p>Email Info</p>
               <p className='number'>info@sukhsagar.com</p>
             </div>
           </div>
           <div className='call-details'>
-            <img src="/docs/images/location.png" alt="Address" />
+            <img src="images/location.png" alt="Address" />
             <div className='call-info'>
               <p>Address</p>
               <p className='address'>Sukhsagar Hotel

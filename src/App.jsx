@@ -19,14 +19,14 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>
-         <Route path="/sukh-sagar" element={<Home/>} />
-         <Route path="/about" element={<About/>} />
-         <Route path="/room" element={<Room/>} />
-         <Route path="/roomdetails" element={<RoomDetails/>} />
-         <Route path="/resturant" element={<Resturant/>}/>
-         <Route path='/spa' element={<SPA/>}/>
-         <Route path='/blog' element={<Blog />}/>
-         <Route exact path="/contact" element={<Contact />} />
+         <Route path="/SUKH-SAGAR/" element={<Home/>} />
+         <Route path="/SUKH-SAGAR/about" element={<About/>} />
+         <Route path="/SUKH-SAGAR/room" element={<Room/>} />
+         <Route path="/SUKH-SAGAR/roomdetails" element={<RoomDetails/>} />
+         <Route path="/SUKH-SAGAR/resturant" element={<Resturant/>}/>
+         <Route path='/SUKH-SAGAR/spa' element={<SPA/>}/>
+         <Route path='/SUKH-SAGAR/blog' element={<Blog />}/>
+         <Route exact path="/SUKH-SAGAR/contact" element={<Contact />} />
       </Routes>
       <Footer/>
     </Router>
