@@ -299,7 +299,7 @@ label {
     .contact-section {
       flex-direction: column;
       justify-content: flex-start;
-      height: 135vh;
+      height:90vh;
     }
   
     .contact-section .contact-info,
@@ -307,8 +307,15 @@ label {
       width: 100%;
       height: auto;
     }
+    .contact-section .contact-info .contact-details
+    {
+      margin: auto;
+      text-align: center;
+      width: 80%;
+
+    }
    
-    .contact-section .contact-info .contact-details,
+    
     .contact-section .form-info .formcon {
       display: block;
       width: 100%;
@@ -345,7 +352,7 @@ label {
     }
   
     .contact-text .number {
-      margin: -15px 30px;
+      margin: -15px -50px 0 0;
     }
   
     .call-details p {
@@ -392,6 +399,10 @@ label {
     .footer-section {
       height: 800px;
   }
+  .call-details
+  {
+    justify-content: center;
+  }
 }
   @media screen and (max-width: 1024px) {
     .hotel-booking-form {
@@ -402,7 +413,8 @@ label {
   
   @media screen and (max-width: 480px) {
     .contact-section {
-      height: 100vh;
+      height: 140vh;
+      padding-top: 50px;
     }
   }
 

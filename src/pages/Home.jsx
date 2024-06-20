@@ -20,7 +20,7 @@ const Home = () => {
             <Testimonial />
             <HotelContainer />
             <HotelBlog />
-            <ContactContainer />
+            <ContactContainer/>
         </>
     )
 }

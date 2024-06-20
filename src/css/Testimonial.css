@@ -43,7 +43,6 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-start; */
     align-items: flex-start;
     z-index: 1;
   }
@@ -156,7 +155,9 @@
   
   .testimonial {
     
-      text-align: center; /* Center align text for mobile */
+      /* text-align: center; */
+      align-items: flex-start;
+      gap: 40%;
   }
   
   .testimonial-services {
@@ -176,6 +177,14 @@
   .testimonial-name, .testimonial-company {
       text-align: center; /* Center align names and companies */
       font-size: 1rem; /* Adjust font size for readability */
+  }
+  .main-testimonial .section-text {
+    width: auto;
+    align-items: center;
+  }
+  .testimonial-services .testimonial-text
+  {
+    width: 100%;
   }
   }
   

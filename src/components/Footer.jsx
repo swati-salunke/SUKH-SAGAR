@@ -10,7 +10,7 @@ const Footer = () => {
             <h1>About Hotel</h1>
             <p>
               Welcome to Hotel Sukh-Sagar, a luxurious five-star deluxe hotel in Pune, Maharashtra. Experience our warmth and charm. Book your stay today; we prioritize your comfort.</p>
-            <button className='btn-hotel-info'>Explore About Sukh-sagar</button>
+            <button className='btn-hotel-info'><a href="/about">Explore Hotel Sukh-sagar</a></button>
           </div>
           <div className="links">
             <h1>Explore</h1>
